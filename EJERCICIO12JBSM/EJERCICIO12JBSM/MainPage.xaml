@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EJERCICIO12JBSM.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="white" Padding="24" CornerRadius="0">
+            <Label Text="EJERCICIO 1.2 JBSM" HorizontalTextAlignment="Center" TextColor="blue" FontSize="36"/>
+        </Frame>
+        <Entry x:Name="txtnombre" Placeholder="Ingrese Su Nombre" Keyboard="Text"/>
+        <Entry x:Name="txtapellido" Placeholder="Ingrese Su Apellido" Keyboard="Text"/>
+        <Entry x:Name="txtedad" Placeholder="Ingrese Su Edad" Keyboard="Numeric"/>
+        <Entry x:Name="txtcorreo" Placeholder="Ingrese Su Correo" Keyboard="Email"/>
+        
+        <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>
